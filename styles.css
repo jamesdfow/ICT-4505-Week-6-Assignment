@@ -1,0 +1,26 @@
+body {
+  font-size: 20px;
+  background-color: rgb(78, 82, 195);
+}
+
+nav {
+  color: rgb(158, 192, 175);
+}
+
+ul {
+  list-style: none;
+}
+
+/*for tablet screens*/
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 30px;
+  }
+}
+
+/*for larger screens*/
+@media screen and (min-width: 1260px) {
+  body {
+    font-size: 40px;
+  }
+}
