@@ -1,16 +1,31 @@
+*,
 body {
-  font-size: 20px;
-  background-color: rgb(78, 82, 195);
+  font-size: 18px;
+  background-color: rgb(131, 134, 207);
+  box-sizing: border-box;
+  padding: 0%;
 }
 
 nav {
   color: rgb(158, 192, 175);
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  padding: 0%;
 }
 
 ul {
   list-style: none;
+  text-decoration: none;
   display: flex;
+  flex-direction: row;
   gap: 10px;
+  width: fit-content;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*for tablet screens*/
