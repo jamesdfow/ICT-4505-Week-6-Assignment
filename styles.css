@@ -5,31 +5,44 @@
 }
 
 body {
-  background-color: rgb(131, 134, 207);
-  font-size: 15px;
-  height: 100vh;
-  width: 100vw;
+  background-color: rgb(59, 126, 155);
+  color: rgb(251, 215, 167);
 }
 
-nav {
-  background-color: rgba(133, 105, 225, 0.504);
-
-  width: 80%;
+.navBar {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.navBar .myLinks {
+  display: none;
 }
 
-li {
-  list-style: none;
-}
-
-a {
+.navBar a {
+  color: white;
+  padding: 14px 16px;
   text-decoration: none;
-  color: rgb(238, 243, 240);
+  font-size: 17px;
+  display: block;
+}
+
+.navBar a.icon {
+  background: #5cb2af;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.navBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #5cb2af;
+  color: white;
 }
 
 /*for tablet screens*/

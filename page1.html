@@ -8,17 +8,33 @@
     <link
       rel="stylesheet"
       href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
     <title>Week 6 Assignment</title>
   </head>
   <body>
-    <nav>
-    <ul>
-        <li><a href="#">Home</a></li></a>
-        <li><a href="#">Work Experience</a></li></a>
-        <li><a href="#">Education</a></li></a>
-        <li><a href="#">Projects</a></li></a>
-        <li><a href="#">Contact</a></li></a>
-    </ul>
-</nav>
+    <div class="navBar">
+      <a
+        href="#home"
+        class="active"
+        >Home</a
+      >
+      <div class="myLinks">
+        <a href="#education">Education</a>
+        <a href="#workExp">Experience</a>
+        <a href="#background">Background</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a
+        href="javascript:void(0);"
+        class="icon"
+        onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
