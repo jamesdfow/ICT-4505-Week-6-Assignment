@@ -49,6 +49,38 @@ body {
   display: block !important;
 }
 
+.profileCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 25px;
+}
+
+.cardContainer {
+  background-color: #7dd8c3;
+  box-shadow: 3px 2px 8px;
+  border-radius: 5px;
+  height: 60vh;
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headshot {
+  height: 50%;
+  width: 100%;
+}
+
+.headshot img {
+  max-width: 100%;
+  max-height: 80%;
+  width: auto;
+  height: auto;
+  border-radius: 50px;
+  object-fit: contain;
+}
+
 /*for tablet screens*/
 @media screen and (min-width: 768px) {
   body {
